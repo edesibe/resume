@@ -2,7 +2,7 @@ baseURL = "https://edesibe.github.io/resume"
 languageCode = "en-us"
 theme = "almeida-cv"
 title = "My Resume"
-publishDir = "resume"
+publishDir = "docs"
 
 
 [params]

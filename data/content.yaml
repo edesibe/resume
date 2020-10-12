@@ -1,0 +1,156 @@
+BasicInfo:
+  FirstName: Ivan
+  LastName: Milivojevic
+  Photo: img/decko.jpg
+  Contacts:
+    - Icon: fas fa-envelope
+      Info: ivan.milivoejvic7@gmail.com
+    - Icon: fas fa-globe
+      Info: https://edesibe.github.io
+    - Icon: fas fa-map-marker-alt
+      Info: Serbia
+
+Profile: Experienced Senior DevOps Engineer with vast DevOps experience. Skill included strong Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaaC (Packer, Terraform) and Open source orchestration platforms (Kubernetes, Docker Swarm). Able to introduce and drive modern DevOps techniques and tools to the organization to achieve continuous improvement of a software development and deployment processes.
+
+Experience:
+  - Employer: Devtech
+    Place: Belgrade, RS
+    Positions:
+      - Title: Senior DevOps Engineer
+        Date: Aug 2019 - present
+        Details:
+          - Developing and maintenance of Serverless architecture based on Amazon
+          - Maintenance of infrastructure based on Amazon Cloud servers 
+          - Implementation and maintenance of CMS System 
+          - Implementation and maintenance of the resources via infrastructure as code
+          - Implementation of CICD via various frameworks
+          - Implementation and maintenance of kubernetes clusters
+          - Implementation and maintenance of logging and monitoring cluster 
+          - Monitoring and maintenance of internal infrastructure
+        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'CircleCi', 'Jfrog', 'Terraform', 'Packer', 'Kops', 'Ansible']
+  - Employer: Endava
+    Place: Belgrade, RS
+    Positions:
+      - Title: Senior DevOps Engineer
+        Date: Sep 2017 - Aug 2019
+        Details:
+          - Developing and maintenance of Serverless architecture based on Amazon
+          - Maintenance of infrastructure based on Amazon Cloud servers 
+          - Implementation and maintenance of CMS System 
+          - Implementation and maintenance of Logging and Monitoring system
+          - Monitoring and maintenance of internal infrastructure 
+        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Nagios', 'Jenkins', 'Git', 'Atlassian', 'Grafana', 'ELK', 'TICK', 'Puppet', 'Ansible', 'Nexus']
+  - Employer: P3 Communications
+    Place: Belgrade, RS
+    Positions:
+      - Title: System Engineer
+        Date: Dec 2013 - Sep 2017
+        Details:
+          - Developing and maintenance of Serverless architecture based on Amazon
+          - Monitoring and maintenance of internal infrastructure 
+          - Monitoring and maintenance of external servers 
+          - Maintenance of infrastructure based on Amazon Cloud servers 
+          - Implementation and maintenance of CMS System 
+          - Handling internal projects upon client’s request 
+          - Developing and maintenance of Serverless architecture based on Amazon Cloud servers 
+        Badges: ['Python', 'AWS', 'Zabbix', 'Linux', 'Bash', 'Perl', 'OMD', 'Chef', 'Mysql', 'Nginx', 'Apache']
+  - Employer: Orion Telecom
+    Place: Belgrade, RS
+    Positions:
+      - Title: VoIP Engineer
+        Date: Oct 2010 - Dec 2013
+        Details:
+          - Configuration, maintenance and implementation of PBX systems (IVR, Conference, Voicemail)
+          - Configuration and maintenance of the VoIP system
+          - Implementation and development of advanced VoIP services (Fax, Calling Cards)
+          - Configuration and maintenance of interconnections with other relevant providers
+          - Configuration, maintenance and implementation of the provisioning system Testing VoIP
+        Badges: ['Linux', 'Bash', 'Perl', 'VoIP', 'Sems', 'Kamailio', 'Asterisk', 'Mysql', 'Postgres']
+  - Employer: Logo doo
+    Place: Belgrade, RS
+    Positions:
+      - Title: System Engineer
+        Date: Apr 2010 - Oct 2010
+        Details:
+          - Configuration and implementation of network equipment (ASA 5505/5510)
+          - Configuration and maintenance of network hardware
+          - Configuration, maintenance and implementation of Asterisk PBX based systems
+        Badges: ['Asterisk', 'Linux', 'Cisco', 'Bash', 'VoIP', 'Mysql']
+
+Education:
+  - Course: MSc in System engineering and Radio communications
+    Place: Faculty of Electrical engineering, University of Belgrade
+    Date: 2008 - 2010
+    Details: 
+  - Course: BSc in Telecommunications
+    Place: Faculty of Electrical engineering, University of Belgrade
+    Date: 2003 - 2008
+    Details: 
+  - Course: Audio and video technics
+    Place: Nikola Tesla Electrical Engineering High School, Belgrade
+    Date: 1999 - 2003
+    Details: 
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - Bash
+      - Golang
+      - Perl
+  - Family: IaaC
+    Items:
+      - Packer
+      - Vagrant
+      - Terraform
+  - Family: Configuration Management
+    Items:
+      - Ansible
+      - Puppet
+      - Chef
+  - Family: DevOps Tools
+    Items:
+      - Git
+      - Docker
+      - Spinnaker
+      - Kubernentes 
+      - Jenkins
+      - TravisCI
+      - CircleCI
+      - Jfrog Artifactory
+      - Jfrog Pipelines
+      - Vault
+      - Atlassian
+      - AWS
+      - ELK
+      - TICK
+      - Grafana
+      - Graylog
+      - Teamcity
+  - Family: Monitoring and alerting
+    Items:
+      - Nagios
+      - Zabbix
+      - Datadog
+
+Languages:
+  - Name: Serbian
+    Level: Native
+  - Name: English
+    Level: Professional
+  - Name: German
+    Level: Basic
+
+Diplomas:
+  - AWS CSSA (Aug 2018 - Aug 2021)
+  - CCNA (May 2009 - May 2012)
+  - LPIC1 (Jan 2015 - Jan 2018)
+  - LPIC2 (Jan 2016 - Jan 2019)
+
+Interests:
+  - Soccer
+  - Swimming
+  - Snowboarding
+  - Music
+  - Travelling
+  - Cycling

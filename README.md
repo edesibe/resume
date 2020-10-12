@@ -49,7 +49,7 @@ within the root of your project.
 
 # Deploying on github pages
 
-GH expecting content in `/docs` folder in `master` branch.Thus one must update `config.toml` and add 
+GH expects content in `/docs` folder in `master` branch.Thus one must update `config.toml` and add 
 
 ```
 publishDir = "docs"

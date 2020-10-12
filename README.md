@@ -1,7 +1,7 @@
 # Almeida CV Theme
 Theme to build a customizeable printable HTML/CSS CV.
 
-![Screenshot](images/screenshot-full.png)
+![Screenshot](images/screenshot.png)
 
 # Features
  - Online CV with minor responsiveness

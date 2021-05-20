@@ -27,7 +27,7 @@ Experience:
           - Implementation and maintenance of kubernetes clusters
           - Implementation and maintenance of logging and monitoring cluster 
           - Monitoring and maintenance of internal infrastructure
-        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'CircleCi', 'Jfrog', 'Terraform', 'Packer', 'Kops', 'Ansible']
+        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'CircleCi', 'Jfrog', 'Terraform', 'Packer', 'Kops', 'Ansible', 'Serverless']
   - Employer: Endava
     Place: Belgrade, RS
     Positions:

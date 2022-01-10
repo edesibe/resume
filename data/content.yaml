@@ -7,6 +7,8 @@ BasicInfo:
       Info: ivan.milivoejvic7@gmail.com
     - Icon: fas fa-globe
       Info: https://edesibe.github.io/resume
+    - Icon: fas fa-github
+      Info: https://github.com/edesibe
     - Icon: fas fa-map-marker-alt
       Info: Serbia
 

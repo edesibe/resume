@@ -4,7 +4,7 @@ BasicInfo:
   Photo: img/decko.jpg
   Contacts:
     - Icon: fas fa-envelope
-      Info: ivan.milivoejvic7@gmail.com
+      Info: ivan.milivojevic7@gmail.com
     - Icon: fas fa-globe
       Info: https://edesibe.github.io/resume
     - Icon: fas fa-github

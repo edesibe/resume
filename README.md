@@ -25,6 +25,13 @@ Clone the repo: `git clone https://github.com/ineesalmeida/almeida-cv`
 ## Install Hugo
 To use almeida-cv theme you need to install Hugo by following https://gohugo.io/getting-started/installing/.
 
+## Fetch submodules
+
+```
+git submodule init
+git submodule update
+```
+
 ## Create your personal website and run
 ```
 hugo new site <your website's name>

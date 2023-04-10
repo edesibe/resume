@@ -1,46 +1,80 @@
 BasicInfo:
   FirstName: Ivan
   LastName: Milivojevic
-  Photo: img/decko.jpg
+  Photo: img/CV.jpeg
   Contacts:
     - Icon: fas fa-envelope
       Info: ivan.milivojevic7@gmail.com
-    - Icon: fas fa-globe
-      Info: https://edesibe.github.io/resume
-    - Icon: fas fa-github
-      Info: https://github.com/edesibe
+    - Icon: fab fa-github
+      Info: <a class="contact__link" href="https://github.com/edesibe" target="_blank">Github</a>
+    - Icon: fab fa-linkedin
+      Info: <a class="contact__link" href="https://www.linkedin.com/in/ivan-milivojevic-8aba5354/" target="_blank">Linkedin</a>
     - Icon: fas fa-map-marker-alt
       Info: Serbia
 
-Profile: Experienced Senior DevOps Engineer with vast DevOps experience. Skill included strong Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaaC (Packer, Terraform) and Open source orchestration platforms (Kubernetes, Docker Swarm). Able to introduce and drive modern DevOps techniques and tools to the organization to achieve continuous improvement of a software development and deployment processes.
-
+Profile: Senior DevOps Engineer with rich 13-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Packer, Terraform) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
 Experience:
-  - Employer: Devtech
+  - Employer: Devtech / Senior DevOps Engineer / Aug 2019 - Present
     Place: Belgrade, RS
     Positions:
-      - Title: Senior DevOps Engineer
-        Date: Aug 2019 - present
+      - Title: Customer project F (social app)
+        Date: Jan 2023 - Present
         Details:
-          - Developing and maintenance of Serverless architecture based on Amazon
-          - Maintenance of infrastructure based on Amazon Cloud servers 
-          - Implementation and maintenance of CMS System 
-          - Implementation and maintenance of the resources via infrastructure as code
-          - Implementation of CICD via various frameworks
-          - Implementation and maintenance of kubernetes clusters
-          - Implementation and maintenance of logging and monitoring cluster 
-          - Monitoring and maintenance of internal infrastructure
-        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'CircleCi', 'Jfrog', 'Terraform', 'Packer', 'Kops', 'Ansible', 'Serverless']
-  - Employer: Endava
+          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer)
+          - Implementation of CICD (Jenkins, Flux, Github, Sonar)
+          - Implementation and maintenance of internal AD and IDP (Keycloak)
+          - Implementation and maintenance of Kubernetes clusters (2 Kubernetes clusters, Kops)
+          - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
+        Badges: ['AWS', 'Linux', 'Bash', 'Jenkins', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Packer', 'Kops', 'Helm', 'Flux', 'Sonar', 'Keycloak']
+      - Title: Customer project E (iot system)
+        Date: Dec 2022 - Jan 2023
+        Details:
+          - Assessment and final reporting on the complete client system which includes Security, IAC, CICD, Provisioning, and Cloud native readiness
+        Badges: ['Linux', 'Bash', 'Git', 'Docker', 'Sonar']
+      - Title: Customer project D (mail security system)
+        Date: Jun 2021 - Aug 2022
+        Details:
+          - Implementation and maintenance of CMS system (Puppet)
+          - Implementation and maintenance of CI (40+ Jenkins build agents)
+          - Implementation and maintenance of VCS system (Gitlab, Github)
+          - Implementation and maintenance of Static code analysis tools (BlackDuck, Sonar)
+        Badges: ['Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Gitlab', 'Nexus', 'BlackDuck', 'Sonar', 'Docker', 'Puppet']
+      - Title: Customer project C (vps hosting app)
+        Date: Jan 2021 - Mar 2021
+        Details:
+          - Development and maintenance of Serverless architecture on AWS (API Gateway, Lambda, DynamoDB)
+          - Implementation of Authorization function including JWT (Golang)
+        Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Serverless', 'Lambda', 'DynamoDB']
+      - Title: Customer project B (vps hosting app)
+        Date: Jun 2020 - Sep 2020
+        Details:
+          - Bootstraping of AWS resources via CMS (Ansible)
+          - Provisioning of AWS resources via infrastructure as code (Terraform)
+          - Implementation of CICD via various frameworks (CircleCI, Jfrog)
+        Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Docker', 'CircleCI', 'Jfrog', 'Terraform', 'Ansible']
+      - Title: Customer project A (transportation app)
+        Date: Aug 2019 - Mar 2020
+        Details:
+          - Maintenance of AWS infrastructure (5 AWS accounts with 30+ EC2 instances per account)
+          - Implementation and maintenance of Kubernetes clusters (2 Kubernetes clusters, Kops)
+          - Implementation and maintenance of CMS system (Puppet)
+          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer)
+          - Implementation and maintenance of CD on Spinnaker (Packer, Spinnaker, EC2, Kubernetes)
+          - Implementation and maintenance of CI (Jenkins, Teamcity)
+          - Implementation and maintance of Secret Management system (Vault, AWS KMS, DynamoDB)
+          - Implementation and maintenance of Logging and Monitoring (Graylog, Datadog)
+          - Implementation and maintenace of internal AD and IDP (FreeIPA, Keycloak)
+        Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'Terraform', 'Packer', 'Kops', 'Ansible', 'FreeIPA', 'Keycloak']
+  - Employer: Endava / Senior DevOps Engineer
     Place: Belgrade, RS
     Positions:
-      - Title: Senior DevOps Engineer
+      - Title: Customer project A (booking app)
         Date: Sep 2017 - Aug 2019
         Details:
-          - Developing and maintenance of Serverless architecture based on Amazon
-          - Maintenance of infrastructure based on Amazon Cloud servers 
-          - Implementation and maintenance of CMS System 
-          - Implementation and maintenance of Logging and Monitoring system
-          - Monitoring and maintenance of internal infrastructure 
+          - Development and maintenance of Serverless architecture on AWS (Lambda, S3, SNS)
+          - Maintenance of AWS infrastructure (10 AWS accounts with 100+ EC2 instances per account)
+          - Implementation and maintenance of CMS System (Ansible, Puppet)
+          - Implementation and maintenance of Logging and Monitoring system (CloudWatch, TICK, ELK, Grafana, Nagios)
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Nagios', 'Jenkins', 'Git', 'Atlassian', 'Grafana', 'ELK', 'TICK', 'Puppet', 'Ansible', 'Nexus']
   - Employer: P3 Communications
     Place: Belgrade, RS
@@ -48,13 +82,13 @@ Experience:
       - Title: System Engineer
         Date: Dec 2013 - Sep 2017
         Details:
-          - Developing and maintenance of Serverless architecture based on Amazon
-          - Monitoring and maintenance of internal infrastructure 
-          - Monitoring and maintenance of external servers 
-          - Maintenance of infrastructure based on Amazon Cloud servers 
-          - Implementation and maintenance of CMS System 
+          - Development and maintenance of Serverless architecture based on AWS (S3, Lambda, SNS)
+          - Monitoring and maintenance of internal infrastructure (on-prem)
+          - Monitoring and maintenance of external servers (200+ external servers)
+          - Implementation and maintenance of Monitoring and Logging systems (Zabbix, Nagios)
+          - Maintenance of AWS infrastructure (ELB, EC2, ASG)
+          - Implementation and maintenance of CMS system (Chef)
           - Handling internal projects upon client’s request 
-          - Developing and maintenance of Serverless architecture based on Amazon Cloud servers 
         Badges: ['Python', 'AWS', 'Zabbix', 'Linux', 'Bash', 'Perl', 'OMD', 'Chef', 'Mysql', 'Nginx', 'Apache']
   - Employer: Orion Telecom
     Place: Belgrade, RS
@@ -63,9 +97,9 @@ Experience:
         Date: Oct 2010 - Dec 2013
         Details:
           - Configuration, maintenance and implementation of PBX systems (IVR, Conference, Voicemail)
-          - Configuration and maintenance of the VoIP system
+          - Configuration and maintenance of the VoIP system (3rd level support)
           - Implementation and development of advanced VoIP services (Fax, Calling Cards)
-          - Configuration and maintenance of interconnections with other relevant providers
+          - Configuration and maintenance of interconnections with other telco providers
           - Configuration, maintenance and implementation of the provisioning system Testing VoIP
         Badges: ['Linux', 'Bash', 'Perl', 'VoIP', 'Sems', 'Kamailio', 'Asterisk', 'Mysql', 'Postgres']
   - Employer: Logo doo
@@ -76,14 +110,14 @@ Experience:
         Details:
           - Configuration and implementation of network equipment (ASA 5505/5510)
           - Configuration and maintenance of network hardware
-          - Configuration, maintenance and implementation of Asterisk PBX based systems
+          - Configuration, maintenance and implementation of several Asterisk PBX based system sites
         Badges: ['Asterisk', 'Linux', 'Cisco', 'Bash', 'VoIP', 'Mysql']
 
 Education:
   - Course: MSc in System engineering and Radio communications
     Place: Faculty of Electrical engineering, University of Belgrade
     Date: 2008 - 2010
-    Details: 
+    Details: External routing via BGP
   - Course: BSc in Telecommunications
     Place: Faculty of Electrical engineering, University of Belgrade
     Date: 2003 - 2008
@@ -99,8 +133,7 @@ Skills:
       - Python
       - Bash
       - Golang
-      - Perl
-  - Family: IaaC
+  - Family: IaC
     Items:
       - Packer
       - Vagrant
@@ -115,12 +148,17 @@ Skills:
       - Git
       - Docker
       - Spinnaker
-      - Kubernentes 
+      - Kubernentes
+      - Helm
+      - Flux
       - Jenkins
       - TravisCI
       - CircleCI
       - Jfrog Artifactory
       - Jfrog Pipelines
+      - Nexus
+      - Sonar
+      - BlackDuck
       - Vault
       - Atlassian
       - AWS
@@ -134,6 +172,7 @@ Skills:
       - Nagios
       - Zabbix
       - Datadog
+      - Prometheus
 
 Languages:
   - Name: Serbian
@@ -144,6 +183,8 @@ Languages:
     Level: Basic
 
 Diplomas:
+  - CKA (Dec 2022 - Dec 2025)
+  - CKAD (Jan 2023 - Jan 2026)
   - AWS CSSA (Aug 2018 - Aug 2021)
   - CCNA (May 2009 - May 2012)
   - LPIC1 (Jan 2015 - Jan 2018)

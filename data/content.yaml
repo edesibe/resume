@@ -12,18 +12,28 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Serbia
 
-Profile: Senior DevOps Engineer with rich 13-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Packer, Terraform) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
+Profile: Senior DevOps Engineer with rich 13-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Terraform, Packer, Pulumi) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
 Experience:
   - Employer: Devtech / Senior DevOps Engineer / Aug 2019 - Present
     Place: Belgrade, RS
     Positions:
-      - Title: Customer project F (social app)
-        Date: Jan 2023 - Present
+      - Title: Customer project G (marketplace system)
+        Date: Jun 2023 - Present
         Details:
-          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer)
+          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
+          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, EKS)
+          - Implementation and maintenance of CD (Github Actions, Terraform, Helm, Argocd, Kubernetes)
+          - Implementation and maintenance of CI (Github Actions)
+          - Implementation and maintenance of Logging and Monitoring (Sumologic)
+          - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
+        Badges: ['AWS', 'Linux', 'Bash', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Argocd',  'Helm', 'Github Actions', 'Python', 'Sumologic']
+      - Title: Customer project F (social app)
+        Date: Jan 2023 - May 2023
+        Details:
+          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer, multiple AWS accounts)
           - Implementation of CICD (Jenkins, Flux, Github, Sonar)
           - Implementation and maintenance of internal AD and IDP (Keycloak)
-          - Implementation and maintenance of Kubernetes clusters (2 Kubernetes clusters, Kops)
+          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, Kops)
           - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
         Badges: ['AWS', 'Linux', 'Bash', 'Jenkins', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Packer', 'Kops', 'Helm', 'Flux', 'Sonar', 'Keycloak']
       - Title: Customer project E (iot system)
@@ -35,7 +45,7 @@ Experience:
         Date: Jun 2021 - Aug 2022
         Details:
           - Implementation and maintenance of CMS system (Puppet)
-          - Implementation and maintenance of CI (40+ Jenkins build agents)
+          - Implementation and maintenance of CI (multiple Jenkins build agents)
           - Implementation and maintenance of VCS system (Gitlab, Github)
           - Implementation and maintenance of Static code analysis tools (BlackDuck, Sonar)
         Badges: ['Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Gitlab', 'Nexus', 'BlackDuck', 'Sonar', 'Docker', 'Puppet']
@@ -49,14 +59,14 @@ Experience:
         Date: Jun 2020 - Sep 2020
         Details:
           - Bootstraping of AWS resources via CMS (Ansible)
-          - Provisioning of AWS resources via infrastructure as code (Terraform)
+          - Provisioning of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
           - Implementation of CICD via various frameworks (CircleCI, Jfrog)
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Docker', 'CircleCI', 'Jfrog', 'Terraform', 'Ansible']
       - Title: Customer project A (transportation app)
         Date: Aug 2019 - Mar 2020
         Details:
-          - Maintenance of AWS infrastructure (5 AWS accounts with 30+ EC2 instances per account)
-          - Implementation and maintenance of Kubernetes clusters (2 Kubernetes clusters, Kops)
+          - Maintenance of AWS infrastructure (multiple AWS accounts with 30+ EC2 instances per account)
+          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, Kops)
           - Implementation and maintenance of CMS system (Puppet)
           - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer)
           - Implementation and maintenance of CD on Spinnaker (Packer, Spinnaker, EC2, Kubernetes)
@@ -72,7 +82,7 @@ Experience:
         Date: Sep 2017 - Aug 2019
         Details:
           - Development and maintenance of Serverless architecture on AWS (Lambda, S3, SNS)
-          - Maintenance of AWS infrastructure (10 AWS accounts with 100+ EC2 instances per account)
+          - Maintenance of AWS infrastructure (multiple AWS accounts with 100+ EC2 instances per account)
           - Implementation and maintenance of CMS System (Ansible, Puppet)
           - Implementation and maintenance of Logging and Monitoring system (CloudWatch, TICK, ELK, Grafana, Nagios)
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Nagios', 'Jenkins', 'Git', 'Atlassian', 'Grafana', 'ELK', 'TICK', 'Puppet', 'Ansible', 'Nexus']
@@ -128,6 +138,16 @@ Education:
     Details: 
 
 Skills:
+  - Family: Containers
+    Items:
+      - Docker
+      - Kubernentes
+      - Helm
+      - Flux
+      - Argocd
+  - Family: Cloud
+    Items:
+      - AWS
   - Family: Programming
     Items:
       - Python
@@ -135,45 +155,43 @@ Skills:
       - Golang
   - Family: IaC
     Items:
-      - Packer
-      - Vagrant
       - Terraform
+      - Vagrant
+      - Packer
+      - Pulumi
   - Family: Configuration Management
     Items:
       - Ansible
       - Puppet
       - Chef
-  - Family: DevOps Tools
+  - Family: CI
     Items:
       - Git
-      - Docker
       - Spinnaker
-      - Kubernentes
-      - Helm
-      - Flux
       - Jenkins
       - TravisCI
       - CircleCI
+      - Github Actions
       - Jfrog Artifactory
       - Jfrog Pipelines
+      - Teamcity
+  - Family: DevOps Tools
+    Items:
       - Nexus
       - Sonar
       - BlackDuck
       - Vault
       - Atlassian
-      - AWS
       - ELK
       - TICK
       - Grafana
       - Graylog
-      - Teamcity
   - Family: Monitoring and alerting
     Items:
       - Nagios
       - Zabbix
       - Datadog
       - Prometheus
-
 Languages:
   - Name: Serbian
     Level: Native

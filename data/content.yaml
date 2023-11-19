@@ -17,7 +17,7 @@ Experience:
   - Employer: Devtech / Senior DevOps Engineer / Aug 2019 - Present
     Place: Belgrade, RS
     Positions:
-      - Title: Customer project G (marketplace system)
+      - Title: Project G (cloud marketplace system)
         Date: Jun 2023 - Present
         Details:
           - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
@@ -27,7 +27,7 @@ Experience:
           - Implementation and maintenance of Logging and Monitoring (Sumologic)
           - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
         Badges: ['AWS', 'Linux', 'Bash', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Argocd',  'Helm', 'Github Actions', 'Python', 'Sumologic']
-      - Title: Customer project F (social app)
+      - Title: Project F (social app)
         Date: Jan 2023 - May 2023
         Details:
           - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer, multiple AWS accounts)
@@ -36,7 +36,7 @@ Experience:
           - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, Kops)
           - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
         Badges: ['AWS', 'Linux', 'Bash', 'Jenkins', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Packer', 'Kops', 'Helm', 'Flux', 'Sonar', 'Keycloak']
-      - Title: Customer project E (iot system)
+      - Title: Project E (iot system)
         Date: Dec 2022 - Jan 2023
         Details:
           - Assessment and final reporting on the complete client system which includes Security, IAC, CICD, Provisioning, and Cloud native readiness
@@ -49,20 +49,20 @@ Experience:
           - Implementation and maintenance of VCS system (Gitlab, Github)
           - Implementation and maintenance of Static code analysis tools (BlackDuck, Sonar)
         Badges: ['Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Gitlab', 'Nexus', 'BlackDuck', 'Sonar', 'Docker', 'Puppet']
-      - Title: Customer project C (vps hosting app)
+      - Title: Project C (vps hosting app)
         Date: Jan 2021 - Mar 2021
         Details:
           - Development and maintenance of Serverless architecture on AWS (API Gateway, Lambda, DynamoDB)
           - Implementation of Authorization function including JWT (Golang)
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Serverless', 'Lambda', 'DynamoDB']
-      - Title: Customer project B (vps hosting app)
+      - Title: Project B (vps hosting app)
         Date: Jun 2020 - Sep 2020
         Details:
           - Bootstraping of AWS resources via CMS (Ansible)
           - Provisioning of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
           - Implementation of CICD via various frameworks (CircleCI, Jfrog)
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Docker', 'CircleCI', 'Jfrog', 'Terraform', 'Ansible']
-      - Title: Customer project A (transportation app)
+      - Title: Project A (transportation app)
         Date: Aug 2019 - Mar 2020
         Details:
           - Maintenance of AWS infrastructure (multiple AWS accounts with 30+ EC2 instances per account)
@@ -78,7 +78,7 @@ Experience:
   - Employer: Endava / Senior DevOps Engineer
     Place: Belgrade, RS
     Positions:
-      - Title: Customer project A (booking app)
+      - Title: Project A (booking app)
         Date: Sep 2017 - Aug 2019
         Details:
           - Development and maintenance of Serverless architecture on AWS (Lambda, S3, SNS)

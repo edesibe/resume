@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "almeida-cv"
 title = "My Resume"
 publishDir = "docs"
+enableEmoji = true
 
 [params]
 enableMetaTags = true

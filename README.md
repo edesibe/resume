@@ -30,6 +30,8 @@ To use almeida-cv theme you need to install Hugo by following https://gohugo.io/
 ```
 git submodule init
 git submodule update
+git submodule update --remote
+git submodule sync
 ```
 
 ## Create your personal website and run
@@ -52,7 +54,7 @@ Your professional data should be added in the `data/content.yaml`.
 # Building 
 To generate your site in the public folder, execute the following:
 ```
-hugo
+hugo --minify
 ```
 within the root of your project.
 

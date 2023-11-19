@@ -41,7 +41,7 @@ Experience:
         Details:
           - Assessment and final reporting on the complete client system which includes Security, IAC, CICD, Provisioning, and Cloud native readiness
         Badges: ['Linux', 'Bash', 'Git', 'Docker', 'Sonar']
-      - Title: Customer project D (mail security system)
+      - Title: Project D (mail security system)
         Date: Jun 2021 - Aug 2022
         Details:
           - Implementation and maintenance of CMS system (Puppet)

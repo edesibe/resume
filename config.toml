@@ -19,6 +19,6 @@ colorRightColumnHeadingText = "#666"
 colorRightColumnBodyText = "#666"
 colorRightColumnIconPrimary = "#fff"
 colorRightColumnIconBackground = "#c2e4b9"
-pages = 2
+pages = 4
 # Set this param to 'true' to swap the bar positions
 swapColumns = false

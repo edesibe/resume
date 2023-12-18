@@ -20,21 +20,25 @@ Experience:
       - Title: Project G (cloud marketplace system)
         Date: Jun 2023 - Present
         Details:
-          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
-          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, EKS)
-          - Implementation and maintenance of CD (Github Actions, Terraform, Helm, Argocd, Kubernetes)
-          - Implementation and maintenance of CI (Github Actions)
-          - Implementation and maintenance of Logging and Monitoring (Sumologic)
-          - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
+          - Provisioning of AWS resources via infrastructure as code (Terraform, multiple AWS accounts).
+          - Provisioning and managing of Kubernetes clusters (multiple Kubernetes clusters, EKS).
+          - Managing of CI/CD (Github Actions, Terraform, Helm, Argocd, Kubernetes).
+          - Managing of Logging and Monitoring (Sumologic).
+          - Standardizing applications in Helm charts (Helm, Kubernetes, Docker).
+          - Eliminating static API credentials usage and increasing overall security regarding AWS access from Github Actions by configuring Github Actions OIDC setup on AWS (Github Actions, AWS, Terraform)
+          - Arbitrated a migration projects from sops to Secrets Manager (Github Actions, Sops, AWS SSM).
+          - Decreasing resolving time by 200% by improving troubleshooting performance lookup during RDS CPU alerts (Python, AWS).
+          - Arbitrated a migration of helm charts to use remote helm charts, standardizing CI/CD (Helm, Github Actions, Kubernetes).
         Badges: ['AWS', 'Linux', 'Bash', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Argocd',  'Helm', 'Github Actions', 'Python', 'Sumologic']
       - Title: Project F (social app)
         Date: Jan 2023 - May 2023
         Details:
-          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer, multiple AWS accounts)
-          - Implementation of CICD (Jenkins, Flux, Github, Sonar)
-          - Implementation and maintenance of internal AD and IDP (Keycloak)
-          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, Kops)
-          - Packaging applications in Helm charts (Helm, Kubernetes, Docker)
+          - Provisioning of AWS resources via infrastructure as code (Terraform, Packer, multiple AWS accounts).
+          - Set up a CI/CD (Jenkins, Flux, Github, Sonar).
+          - Set up and and maintenance of internal AD and IDP (Keycloak).
+          - Set up and maintentace of Kubernetes clusters (multiple Kubernetes clusters, Kops).
+          - Packaging and standardization of applications in Helm charts (Helm, Kubernetes, Docker).
+          - Set up and standardized GitOps deployment to Kubernetes clusters (Flux, Jenkins, Helm, and Github).
         Badges: ['AWS', 'Linux', 'Bash', 'Jenkins', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Packer', 'Kops', 'Helm', 'Flux', 'Sonar', 'Keycloak']
       - Title: Project E (iot system)
         Date: Dec 2022 - Jan 2023
@@ -44,36 +48,38 @@ Experience:
       - Title: Project D (mail security system)
         Date: Jun 2021 - Aug 2022
         Details:
-          - Implementation and maintenance of CMS system (Puppet)
-          - Implementation and maintenance of CI (multiple Jenkins build agents)
-          - Implementation and maintenance of VCS system (Gitlab, Github)
-          - Implementation and maintenance of Static code analysis tools (BlackDuck, Sonar)
+          - Managing of CMS system (Puppet).
+          - Managing of CI/CD (multiple Jenkins build agents).
+          - Set up of HA on-prem VCS system (Gitlab).
+          - Managing of code quality analysis tools (BlackDuck, Sonar).
+          - Coded audit reports regarding users,groups, and projects for Jenkins,BlackDuck,Sonar and Gitlab (Python).
+          - Arbitrated migrating 2k jenkins jobs to folders, increasing 10x jenkins stability issues (Jenkins, Python).
+          - Standardized code signing by demonstrating how fake actors can hijack commits. Over 95% of commits are typically unsigned on Git.
         Badges: ['Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Gitlab', 'Nexus', 'BlackDuck', 'Sonar', 'Docker', 'Puppet']
       - Title: Project C (vps hosting app)
         Date: Jan 2021 - Mar 2021
         Details:
-          - Development and maintenance of Serverless architecture on AWS (API Gateway, Lambda, DynamoDB)
-          - Implementation of Authorization function including JWT (Golang)
+          - Set up of Serverless architecture on AWS (API Gateway, Lambda, DynamoDB, Serverless).
+          - Implemented authorization function with JWT(Golang, AWS)
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Serverless', 'Lambda', 'DynamoDB']
       - Title: Project B (vps hosting app)
         Date: Jun 2020 - Sep 2020
         Details:
-          - Bootstraping of AWS resources via CMS (Ansible)
-          - Provisioning of AWS resources via infrastructure as code (Terraform, multiple AWS accounts)
-          - Implementation of CICD via various frameworks (CircleCI, Jfrog)
+          - Provisioning and bootstrapling of AWS resources via infrastructure as code (Terraform, Ansible, multiple AWS accounts).
+          - Set up a CI/CD including environment provisioning on every PR (CircleCI, Terraform and Ansible).
+          - Set up a CI/CD including environment provisioning on every PR (Jfrog, Terraform and Ansible).
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Docker', 'CircleCI', 'Jfrog', 'Terraform', 'Ansible']
       - Title: Project A (transportation app)
         Date: Aug 2019 - Mar 2020
         Details:
-          - Maintenance of AWS infrastructure (multiple AWS accounts with 30+ EC2 instances per account)
-          - Implementation and maintenance of Kubernetes clusters (multiple Kubernetes clusters, Kops)
-          - Implementation and maintenance of CMS system (Puppet)
-          - Implementation and maintenance of AWS resources via infrastructure as code (Terraform, Packer)
-          - Implementation and maintenance of CD on Spinnaker (Packer, Spinnaker, EC2, Kubernetes)
-          - Implementation and maintenance of CI (Jenkins, Teamcity)
-          - Implementation and maintance of Secret Management system (Vault, AWS KMS, DynamoDB)
-          - Implementation and maintenance of Logging and Monitoring (Graylog, Datadog)
-          - Implementation and maintenace of internal AD and IDP (FreeIPA, Keycloak)
+          - Managing of Kubernetes clusters (multiple Kubernetes clusters, Kops).
+          - Managing of CMS system (Puppet).
+          - Provisioning of AWS resources via infrastructure as code (Terraform, Packer).
+          - Audited and standardize of CI/CD on Spinnaker (Packer, Spinnaker, EC2, Kubernetes).
+          - Set up and maintance of Secret Management system (Vault, AWS KMS, DynamoDB).
+          - Configuring and maintenance of Logging and Monitoring (Graylog, Datadog).
+          - Configuring and maintenace of internal AD and IDP (FreeIPA, Keycloak).
+          - Managed k8s cluster upgrade from 1.14 to 1.18 version without downtime (Kops, Kubernetes).
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'Terraform', 'Packer', 'Kops', 'Ansible', 'FreeIPA', 'Keycloak']
   - Employer: Endava / Senior DevOps Engineer
     Place: Belgrade, RS
@@ -81,10 +87,14 @@ Experience:
       - Title: Project A (booking app)
         Date: Sep 2017 - Aug 2019
         Details:
-          - Development and maintenance of Serverless architecture on AWS (Lambda, S3, SNS)
-          - Maintenance of AWS infrastructure (multiple AWS accounts with 100+ EC2 instances per account)
-          - Implementation and maintenance of CMS System (Ansible, Puppet)
-          - Implementation and maintenance of Logging and Monitoring system (CloudWatch, TICK, ELK, Grafana, Nagios)
+          - Set up and managing of Serverless architecture on AWS (Lambda, S3, SNS).
+          - Maintenance of AWS infrastructure (multiple AWS accounts with 100+ EC2 instances per account).
+          - Managing of CMS System (Ansible, Puppet).
+          - Set up and maintenance of Logging and Monitoring system (CloudWatch, TICK, ELK, Grafana, Nagios).
+          - Set up an upgrade process for upgrading and patching 1.5k EC2 instances without downtime (Ansible, AWS).
+          - Held courses and workshops in Terraform.
+          - Wrote custom Ansible modules for managing Lambda functions,IAM roles, and CloudWatch Alarms and Events (Ansible, AWS, Terraform).
+          - Wrote scripts via python for managing user passwords on various platform components (Ansible, Python).
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Nagios', 'Jenkins', 'Git', 'Atlassian', 'Grafana', 'ELK', 'TICK', 'Puppet', 'Ansible', 'Nexus']
   - Employer: P3 Communications
     Place: Belgrade, RS
@@ -92,13 +102,14 @@ Experience:
       - Title: System Engineer
         Date: Dec 2013 - Sep 2017
         Details:
-          - Development and maintenance of Serverless architecture based on AWS (S3, Lambda, SNS)
-          - Monitoring and maintenance of internal infrastructure (on-prem)
-          - Monitoring and maintenance of external servers (200+ external servers)
-          - Implementation and maintenance of Monitoring and Logging systems (Zabbix, Nagios)
-          - Maintenance of AWS infrastructure (ELB, EC2, ASG)
-          - Implementation and maintenance of CMS system (Chef)
-          - Handling internal projects upon client’s request 
+          - Provisioned and maintened of Serverless architecture based on AWS (S3, Lambda, SNS).
+          - Devised better billing, performance, and infrastructure needs, extracting a 10x reduction in cloud computing costs.
+          - Customized tracing utility on external servers, mitigate packet loss on traces toward zero.
+          - Set up a monitoring and logging system for checking 2XX external servers (Zabbix).
+          - Provisioned AWS infrastructure (ELB, EC2, ASG).
+          - Decreased delivery time by 400% by configuring and standardizing a provisioning system for managing 2XX external servers (Chef).
+          - Managed internal projects upon client’s request. 
+          - Helped migrate a product from physical servers to AWS.
         Badges: ['Python', 'AWS', 'Zabbix', 'Linux', 'Bash', 'Perl', 'OMD', 'Chef', 'Mysql', 'Nginx', 'Apache']
   - Employer: Orion Telecom
     Place: Belgrade, RS
@@ -106,11 +117,12 @@ Experience:
       - Title: VoIP Engineer
         Date: Oct 2010 - Dec 2013
         Details:
-          - Configuration, maintenance and implementation of PBX systems (IVR, Conference, Voicemail)
-          - Configuration and maintenance of the VoIP system (3rd level support)
-          - Implementation and development of advanced VoIP services (Fax, Calling Cards)
-          - Configuration and maintenance of interconnections with other telco providers
-          - Configuration, maintenance and implementation of the provisioning system Testing VoIP
+          - Configuration, maintenance and implementation of PBX systems (IVR, Conference, Voicemail) for business VoIP customers.
+          - Set up a solution for sending and receiving fax without traditional fax equipment.This service is still active.
+          - Engaged as a L3 support for interconnections with other domestic and foreign telco providers.
+          - Coordinated a migration of 50k VoIP users to a new VoIP Class4 platform.
+          - Decreased delivery time by 500% by set up a solution for autoprovisioning of 30k residential VoIP users.
+          - Decreased delivery time by 300% by automated a provisioning of embedded VoIP equipment.
         Badges: ['Linux', 'Bash', 'Perl', 'VoIP', 'Sems', 'Kamailio', 'Asterisk', 'Mysql', 'Postgres']
   - Employer: Logo doo
     Place: Belgrade, RS
@@ -118,9 +130,9 @@ Experience:
       - Title: System Engineer
         Date: Apr 2010 - Oct 2010
         Details:
-          - Configuration and implementation of network equipment (ASA 5505/5510)
-          - Configuration and maintenance of network hardware
-          - Configuration, maintenance and implementation of several Asterisk PBX based system sites
+          - Set up network equipment (ASA 5505/5510).
+          - Configuration and maintenance of network hardware.
+          - Configuration, maintenance and setup of several Asterisk PBX based system sites.
         Badges: ['Asterisk', 'Linux', 'Cisco', 'Bash', 'VoIP', 'Mysql']
 
 Education:
@@ -164,7 +176,7 @@ Skills:
       - Ansible
       - Puppet
       - Chef
-  - Family: CI
+  - Family: CI/CD
     Items:
       - Git
       - Spinnaker

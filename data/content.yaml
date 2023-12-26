@@ -13,6 +13,7 @@ BasicInfo:
       Info: Serbia
 
 Profile: Senior DevOps Engineer with rich 13-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Terraform, Packer, Pulumi) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
+
 Experience:
   - Employer: Devtech / Senior DevOps Engineer 
     Place: Belgrade, RS
@@ -30,6 +31,9 @@ Experience:
           - 200% decreasing resolution time by improving troubleshooting performance lookup during RDS CPU alerts (Python, AWS).
           - Arbitrating a migration of helm charts to use remote helm charts, standardizing CI/CD (Helm, Github Actions, Kubernetes).
         Badges: ['AWS', 'Linux', 'Bash', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Argocd',  'Helm', 'Github Actions', 'Python', 'Sumologic']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project F (social app)
         Date: Jan 2023 - May 2023
         Details:
@@ -40,11 +44,17 @@ Experience:
           - Packaged and standardized applications in Helm charts (Helm, Kubernetes, Docker).
           - Set up and standardized GitOps deployment to Kubernetes clusters (Flux, Jenkins, Helm, and Github).
         Badges: ['AWS', 'Linux', 'Bash', 'Jenkins', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Packer', 'Kops', 'Helm', 'Flux', 'Sonar', 'Keycloak']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project E (iot system)
         Date: Dec 2022 - Jan 2023
         Details:
           - Assessment and final reporting on the complete client system which includes Security, IAC, CICD, Provisioning, and Cloud native readiness.
         Badges: ['Linux', 'Bash', 'Git', 'Docker', 'Sonar']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project D (mail security system)
         Date: Jun 2021 - Aug 2022
         Details:
@@ -56,12 +66,18 @@ Experience:
           - Arbitrated migrating 2k jenkins jobs to folders, increasing 10x jenkins stability issues (Jenkins, Python).
           - Standardized code signing by demonstrating how fake actors can hijack commits. Over 95% of commits are typically unsigned on Git.
         Badges: ['Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Gitlab', 'Nexus', 'BlackDuck', 'Sonar', 'Docker', 'Puppet']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project C (vps hosting app)
         Date: Jan 2021 - Mar 2021
         Details:
           - Set up Serverless architecture on AWS (API Gateway, Lambda, DynamoDB, Serverless).
           - Implemented authorization function with JWT(Golang, AWS)
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Serverless', 'Lambda', 'DynamoDB']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project B (vps hosting app)
         Date: Jun 2020 - Sep 2020
         Details:
@@ -69,6 +85,9 @@ Experience:
           - Set up a CI/CD including environment provisioning on every PR (CircleCI, Terraform and Ansible).
           - Set up a CI/CD including environment provisioning on every PR (Jfrog, Terraform and Ansible).
         Badges: ['AWS', 'Linux', 'Bash', 'Golang', 'Git', 'Docker', 'CircleCI', 'Jfrog', 'Terraform', 'Ansible']
+  - Employer: Devtech / Senior DevOps Engineer 
+    Place: Belgrade, RS
+    Positions:
       - Title: Project A (transportation app)
         Date: Aug 2019 - Mar 2020
         Details:
@@ -83,6 +102,7 @@ Experience:
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Golang', 'Jenkins', 'Git', 'Graylog', 'ELK', 'DataDog', 'Puppet', 'Vault', 'Kubernetes', 'Docker', 'Spinnaker', 'Teamcity', 'Terraform', 'Packer', 'Kops', 'Ansible', 'FreeIPA', 'Keycloak']
   - Employer: Endava / Senior DevOps Engineer
     Place: Belgrade, RS
+    Class: "experience__extra_padding"
     Positions:
       - Title: Project A (booking app)
         Date: Sep 2017 - Aug 2019
@@ -98,6 +118,7 @@ Experience:
         Badges: ['Python', 'AWS', 'Linux', 'Bash', 'Nagios', 'Jenkins', 'Git', 'Atlassian', 'Grafana', 'ELK', 'TICK', 'Puppet', 'Ansible', 'Nexus']
   - Employer: P3 Communications
     Place: Belgrade, RS
+    Class: "experience__extra_padding"
     Positions:
       - Title: System Engineer
         Date: Dec 2013 - Sep 2017
@@ -113,6 +134,7 @@ Experience:
         Badges: ['Python', 'AWS', 'Zabbix', 'Linux', 'Bash', 'Perl', 'OMD', 'Chef', 'Mysql', 'Nginx', 'Apache']
   - Employer: Orion Telecom
     Place: Belgrade, RS
+    Class: "experience__extra_padding"
     Positions:
       - Title: VoIP Engineer
         Date: Oct 2010 - Dec 2013
@@ -126,6 +148,7 @@ Experience:
         Badges: ['Linux', 'Bash', 'Perl', 'VoIP', 'Sems', 'Kamailio', 'Asterisk', 'Mysql', 'Postgres']
   - Employer: Logo doo
     Place: Belgrade, RS
+    Class: "experience__extra_padding"
     Positions:
       - Title: System Engineer
         Date: Apr 2010 - Oct 2010

@@ -4,6 +4,8 @@ theme = "almeida-cv"
 title = "My Resume"
 publishDir = "docs"
 enableEmoji = true
+enableRobotsTXT = true
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 [params]
 enableMetaTags = true

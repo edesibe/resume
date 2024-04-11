@@ -12,14 +12,22 @@ BasicInfo:
     - Icon: fas fa-map-marker-alt
       Info: Serbia
 
-Profile: Senior DevOps Engineer with rich 13-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Terraform, Packer, Pulumi) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
+Profile: Senior DevOps Engineer with rich 14-year experience in different DevOps-related roles. Strongest skills include extensive Linux administration, CICD, Configuration management systems (Ansible, Chef, Puppet), IaC (Terraform, Packer, Pulumi) and Open source orchestration platforms (Kubernetes, Docker Swarm). Passionate about introducing and driving modern DevOps techniques and tools to the organization to achieve continuous improvement of the software development and deployment processes.
 
 Experience:
+  - Employer: Tide 
+    Place: Belgrade, RS
+    Positions:
+      - Title: Senior Cloud Engineer
+        Date: Apr 2024 - Present
+        Details:
+          - TBD
+        Badges: ['AWS', 'Linux', 'Bash', 'Git', 'Kubernetes', 'Docker', 'Terraform', 'Argocd',  'Helm', 'Github Actions', 'Python']
   - Employer: Devtech / Senior DevOps Engineer 
     Place: Belgrade, RS
     Positions:
       - Title: Project G (cloud marketplace system)
-        Date: Jun 2023 - Present
+        Date: Jun 2023 - Apr 2024
         Details:
           - Provisioning of AWS resources via infrastructure as code (Terraform, multiple AWS accounts).
           - Provisioning and managing of Kubernetes clusters (multiple Kubernetes clusters, EKS).
